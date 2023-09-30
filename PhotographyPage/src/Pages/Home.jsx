@@ -21,7 +21,7 @@ function Home() {
 
       {Slides.map((slide, index) => {
         return(
-            <div key={index} className="max-w-{1400px} h-{780px} w-full m-auto py-16 px-4 relative"><img src={Slides.image} alt="shoot img " /></div>
+            <div key={index} className="max-w-{1400px} h-{780px} w-full m-auto py-16 px-4 relative"><img src={slide.image} alt="shoot img " /></div>
             //  <img key={index} src={slide.image} alt="photography" />
     //        <div  key={index} className="max-w-{1400px} h-{780px} w-full m-auto py-16 px-4 relative">
     // <div
