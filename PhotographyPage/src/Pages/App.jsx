@@ -5,6 +5,7 @@ import About from "./About";
 import Investment from "./Investment";
 import Contact from "./Contact";
 import Navbar from "../component/Navbar";
+import Event from "../component/Event";
 function App() {
   return (
     < div >
@@ -15,8 +16,11 @@ function App() {
           <Route path='/about' element={<About />} />
           <Route path='/investment' element={<Investment />} />
           <Route path='/contact' element={<Contact />} />
+          <Route path='/event' element={<Event />} />
+
         </Routes>
       </Router>
+      
     </div>
   );
 }

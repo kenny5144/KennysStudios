@@ -9,13 +9,15 @@ const Navbar = () => {
     if (route === location.pathname) {
       return true;
     }
-  };
+  }; 
   return (
     <header  >
-      <nav className=" px-2 mt-1  flex justify-between">
+      <nav className={
+              pathMatchRoutes("/") ? "w-full   px-2 mt-1 flex justify-between  absolute z-10" : "w-full px-2 mt-1 flex justify-between"
+            }>
               <h1
           className={
-            pathMatchRoutes("/about") ? "text-green-600" : "text-orange-300"
+            "text-orange-400 md:text-2xl "
           }
           onClick={() => navigate("/")}
         >
@@ -24,15 +26,15 @@ const Navbar = () => {
         <ul className="flex space-x-4">
           <li
             className={
-              pathMatchRoutes("/about") ? "text-green-600" : "text-orange-300"
+              pathMatchRoutes("/about") ? "md:text-2xl text-green-600" : "text-orange-400 md:text-2xl "
             }
             onClick={() => navigate("/about")}
           >
-            About{" "}
+            About
           </li>
           <li
             className={
-              pathMatchRoutes("/about") ? "text-green-600" : "text-orange-300"
+              pathMatchRoutes("/investment") ? " md:text-2xl  text-green-600" : "text-orange-400 md:text-2xl"
             }
             onClick={() => navigate("/investment")}
           >
@@ -40,11 +42,11 @@ const Navbar = () => {
           </li>
           <li
             className={
-              pathMatchRoutes("/about") ? "text-green-600" : "text-orange-300"
+              pathMatchRoutes("/contact") ? " md:text-2xl text-green-600" : "text-orange-400 md:text-2xl"
             }
             onClick={() => navigate("/contact")}
           >
-            contact
+            Contact
           </li>
         </ul>
       </nav>
