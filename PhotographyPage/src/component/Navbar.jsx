@@ -12,6 +12,10 @@ const Navbar = () => {
     }
   };
   const [isOpen, setIsOpen] = useState(false);
+  const [portfolioisOpen, setPortfolioIsOpen] = useState(false);
+  const portfoliodrop =()=>{
+    setPortfolioIsOpen(!portfolioisOpen)
+  }
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
   };
@@ -26,7 +30,7 @@ const Navbar = () => {
       >
         <h1
           className={"text-orange-400 ml-1 md:text-2xl cursor-pointer "}
-          onClick={() => navigate("/")}
+          onClick={() =>{ navigate("/"); setIsOpen(false)}}
         >
           Kennys Studios
         </h1>
@@ -47,10 +51,47 @@ const Navbar = () => {
                 ? " md:text-2xl cursor-pointer  text-green-600"
                 : "text-orange-400 cursor-pointer md:text-2xl"
             }
-            onClick={() => navigate("/investment")}
+            onClick={portfoliodrop}
           >
-            Investment
+            Portfolio
           </li>
+          {/* code for th dropdown button */}
+            {portfolioisOpen &&
+             <div className="absolute top-10 m-auto w-40 gap-10 rounded-lg right-20 h-auto p-4  bg-black" >
+              <div>
+
+                <ul className="text-orange-400  text-center">
+                  <li   className={
+              pathMatchRoutes("/investment")
+                ? " md:text-2xl cursor-pointer  text-green-600"
+                : "text-orange-400 cursor-pointer md:text-2xl"
+            }
+            onClick={()=> {navigate("/event"); setPortfolioIsOpen(false)}}
+          >Events</li>
+                  <li  className={
+              pathMatchRoutes("/investment")
+                ? " md:text-2xl cursor-pointer  text-green-600"
+                : "text-orange-400 cursor-pointer md:text-2xl"
+            }
+            onClick={()=>{ navigate("/studio"); setPortfolioIsOpen(false)}}>Studio</li>
+                  <li  className={
+              pathMatchRoutes("/lifestyle")
+                ? " md:text-2xl cursor-pointer  text-green-600"
+                : "text-orange-400 cursor-pointer md:text-2xl"
+            }
+            onClick={()=> {navigate("/lifestyle"); setPortfolioIsOpen(false)}}>lifestyle</li>
+                  <li  className={
+              pathMatchRoutes("/business")
+                ? " md:text-2xl cursor-pointer  text-green-600"
+                : "text-orange-400 cursor-pointer md:text-2xl"
+            }
+            onClick={()=> {navigate("/business"); setPortfolioIsOpen(false)}}>business</li>
+                </ul>
+              </div>
+            </div>
+
+            }
+           
           <li
             className={
               pathMatchRoutes("/contact")
@@ -62,6 +103,7 @@ const Navbar = () => {
             Contact
           </li>
         </ul>
+  
         <div className="md:hidden relative top-1 right-[40px] text-xl cursor-pointer">
           <button
             onClick={toggleNavbar}
@@ -71,14 +113,15 @@ const Navbar = () => {
           </button>
         </div>
       </nav>
+   
       {/* mobile menu  */}
       {isOpen ? 
-      <div className="w-[100%]  flex bg-grey h-screen justify-center items-center
-       bg-white absolute right-0  pt-7 ">
+      <div className="w-[100%]  flex bg-grey h-screen  justify-center items-center
+       bg-white relative right-0 pt-7 ">
      
       
         
-        <ul className=" gap-10  text-3xl z-[1] flex flex-col  text-blue">
+        <ul className=" gap-10  text-3xl flex flex-col  text-blue">
           <li
             className={
               pathMatchRoutes("/about")
@@ -92,13 +135,49 @@ const Navbar = () => {
           <li
             className={
               pathMatchRoutes("/investment")
-                ? " md:text-2xl  text-green-600"
-                : "text-orange-400 md:text-2xl cursor-pointer"
+                ? " md:text-2xl cursor-pointer  text-green-600"
+                : "text-orange-400 cursor-pointer md:text-2xl"
             }
-            onClick={() => {navigate("/investment"); setIsOpen(false)}}
+            onClick={portfoliodrop}
           >
-            Investment
+            Portfolio
           </li>
+          {/* code for th dropdown button */}
+            {portfolioisOpen &&
+             <div className=" bg-black w-40 rounded-xl h-auto m-auto p-4 absolute top-[34rem] right-32 " >
+              <div>
+
+                <ul className="text-orange-400 gap-5 text-center flex flex-col ">
+                  <li   className={
+              pathMatchRoutes("/investment")
+                ? " md:text-2xl cursor-pointer  text-green-600"
+                : "text-orange-400 cursor-pointer md:text-2xl"
+            }
+            onClick={()=> {navigate("/event");  setIsOpen(false); setPortfolioIsOpen(false)}}
+          >Events</li>
+                  <li  className={
+              pathMatchRoutes("/investment")
+                ? " md:text-2xl cursor-pointer  text-green-600"
+                : "text-orange-400 cursor-pointer md:text-2xl"
+            }
+            onClick={()=>{ navigate("/studio"); setIsOpen(false); setPortfolioIsOpen(false)}}>Studio</li>
+                  <li  className={
+              pathMatchRoutes("/lifestyle")
+                ? " md:text-2xl cursor-pointer  text-green-600"
+                : "text-orange-400 cursor-pointer md:text-2xl"
+            }
+            onClick={()=> {navigate("/lifestyle"); setIsOpen(false); setPortfolioIsOpen(false)}}>Lifestyle</li>
+                  <li  className={
+              pathMatchRoutes("/business")
+                ? " md:text-2xl cursor-pointer  text-green-600"
+                : "text-orange-400 cursor-pointer md:text-2xl"
+            }
+            onClick={()=> {navigate("/business"); setIsOpen(false);  setPortfolioIsOpen(false)}}>Business</li>
+                </ul>
+              </div>
+            </div>
+
+            }
           <li
             className={
               pathMatchRoutes("/contact")

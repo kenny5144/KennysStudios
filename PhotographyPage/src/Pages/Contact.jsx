@@ -6,45 +6,93 @@ const Contact = () => {
     <>
       <div className="-z-[1]  -top-[30px] relative ">
         <img src={contact} alt="" />
-        <h2 className="text-5xl text-center -top-8 bg-white w-fit  m-auto relative">
+        <h2 className="text-5xl text-center inset-x-0 -bottom-8 bg-white w-fit absolute  p-4 m-auto ">
           Contact Me
         </h2>
       </div>
-      <div className="w-screen h-[40rem] bg-blue-100 items-center justify-center  m-auto border-4 ">
-
-      <form className="w-[80%] mt-1 py-4  justify-center border-4 m-auto bg-white ">
-          
-        
-
-          <div>
-            <p className=" ">YOUR NAME </p>
-            <input
-              type="name"
-              className="p2 border-b-2 outline-none border-b-indigo-500"
-              placeholder="Enter your name..."
-              required
-            />
-          </div>
-          <div>
-            <p className="mt-7 ">EMAIL </p>
-            <input type="email" placeholder="Enter your Email..." reqiuired />
-          </div>
-          <div>
-            <p className="mt-7">Occasion </p>
-            <input type="text" placeholder="Booking occasion " />
-          </div>
-          <div>
-            <p className="mt-7">DATE(ESTIMATED DATE ) </p>
-            <input type="date" placeholder="Enter your name..." />
-          </div>
-          <div>
-            <button className="mt-7 rounded-md p-2 border border-slate-300 hover:border-indigo-300">
-              Submit{" "}
-            </button>
-          </div>
-        
-        
-      </form>
+      <div className=" w-screen mt-10  ">
+        <form className=" w-screen flex justify-center m-auto bg-white ">
+          <section>
+            <div className="relative ">
+              <input
+                id="name"
+                type="name"
+                className="border-b w-96 py-1 focus:outline-none focus:border-purple-600 focus:border-b-2 transition-colors peer"
+                autoComplete="off"
+                required
+              />
+              <label
+                for="username"
+                class="absolute left-0 top-1 text-gray-600 cursor-text peer-focus:text-xs peer-focus:-top-4 peer-focus:text-purple-600 transition-all"
+              >
+                Your Name
+              </label>
+            </div>
+            <div className="relative mt-4">
+                           <input
+                type="email"
+                id="Email"
+                className="border-b w-96 py-1 focus:outline-none focus:border-purple-600 focus:border-b-2 transition-colors peer"
+                autoComplete="off"
+                reqiuired
+              />
+               <label
+                for="Email"
+                class="absolute left-0 top-1 text-gray-600 cursor-text peer-focus:text-xs peer-focus:-top-4 peer-focus:text-purple-600 transition-all"
+              >
+                Email
+              </label>
+            </div>
+            <div className="relative mt-4">
+                           <input
+                type="Text"
+                id="Text"
+                className="border-b w-96 py-1 focus:outline-none focus:border-purple-600 focus:border-b-2 transition-colors peer"
+                autoComplete="off"
+                reqiuired
+              />
+               <label
+                for="Text"
+                class="absolute left-0 top-1 text-gray-600 cursor-text peer-focus:text-xs peer-focus:-top-4 peer-focus:text-purple-600 transition-all"
+              >
+                Occassion 
+              </label>
+            </div>
+            <div className="relative mt-4">
+               <label
+                for="Date"
+                class="absolute left-0 top-1 text-gray-600 cursor-text peer-focus:text-xs peer-focus:-top-4 peer-focus:text-purple-600 transition-all"
+              >
+                Date 
+              </label>
+                           <input
+                type="date"
+                id="Date"
+               className="border-b w-96 py-1 focus:outline-none focus:border-purple-600 focus:border-b-2 transition-colors peer"
+                autoComplete="off"
+                reqiuired
+              />
+            </div>
+            
+            
+            <div className="relative mt-2">
+                           {/* <input
+                type="text"
+                id="Details"
+                className="border-4 w-96 h-20 py-1 border-purple-600 focus:outline-none focus:border-purple-600 focus:border-4-2 transition-colors peer"
+                autoComplete="off"
+              /> */}
+              
+               {/* <label
+                for="Details"
+                class="absolute left-0 top-1 text-gray-600 cursor-text peer-focus:text-xs peer-focus:-top-4 peer-focus:text-purple-600 transition-all"
+              >
+                Other Details
+              </label> */}
+            </div>
+           
+          </section>
+        </form>
       </div>
     </>
   );
