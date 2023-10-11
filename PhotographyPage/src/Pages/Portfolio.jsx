@@ -77,7 +77,7 @@ const Portfolio = () => {
         <footer className=" mt-2 md:relative md:top-40 flex  bg-blue-300 h-20 ">
           <div className="justify-center self-center m-auto  w-auto ">
 
-        <a href="https://www.instagram.com/kennys_studio/" className="  p-1.5 flex text-3xl mt-0 p-0" target="blank">{element} <span className="pl-1"> Instagram </span></a>
+        <a href="https://www.instagram.com/kennys_studio/" className="  p-1.5 flex text-3xl mt-0" target="blank">{element} <span className="pl-1"> Instagram </span></a>
           </div>
 
         </footer>
