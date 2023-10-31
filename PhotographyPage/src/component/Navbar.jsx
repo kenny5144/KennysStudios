@@ -57,10 +57,10 @@ const Navbar = () => {
           </li>
           {/* code for th dropdown button */}
             {portfolioisOpen &&
-             <div className="absolute top-10 m-auto w-40 gap-10 rounded-lg right-20 h-auto p-4  bg-black" >
+             <div className="absolute top-10 m-auto w-36 gap-10 rounded-lg right-[5rem] h-auto p-4  bg-black" >
               <div>
 
-                <ul className="text-orange-400  text-center">
+                <ul className="text-orange-400 kenny text-center">
                   <li   className={
               pathMatchRoutes("/investment")
                 ? " md:text-2xl cursor-pointer  text-green-600"
@@ -144,10 +144,10 @@ const Navbar = () => {
           </li>
           {/* code for th dropdown button */}
             {portfolioisOpen &&
-             <div className=" bg-black w-40 rounded-xl h-auto m-auto p-4 absolute top-[34rem] right-32 " >
+             <div className=" bg-black w-40  gap-5 rounded-xl h-auto m-auto p-9 absolute top-[34rem] right-[100rem] " >
               <div>
 
-                <ul className="text-orange-400 gap-5 text-center flex flex-col ">
+                <ul className="text-orange-400 text-center flex flex-col ">
                   <li   className={
               pathMatchRoutes("/investment")
                 ? " md:text-2xl cursor-pointer  text-green-600"

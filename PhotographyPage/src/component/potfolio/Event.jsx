@@ -12,6 +12,8 @@ import short5 from "../../images/events/short5.jpg";
 import short6 from "../../images/events/short6.jpg";
 import short from "../../images/events/short.jpg";
 
+
+
 const Event = () => {
   return (
     <>
