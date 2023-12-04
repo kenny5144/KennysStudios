@@ -25,6 +25,7 @@ const Studio = () => {
       <div className="grid gap-4">
         <div>
           <img
+          loading="lazy"
             className="h-auto max-w-full rounded-lg"
             src={image1c}
             alt=""
@@ -33,6 +34,7 @@ const Studio = () => {
         </div>
         <div>
           <img
+          loading="lazy"
             className="h-auto max-w-full rounded-lg"
             src= {babyshowershot2}
             alt=""
@@ -40,6 +42,7 @@ const Studio = () => {
         </div>
         <div>
           <img
+          loading="lazy"
             className="h-auto max-w-full rounded-lg"
             src={babyshowershot1}
             alt=""
@@ -47,6 +50,7 @@ const Studio = () => {
         </div>
         <div>
           <img
+          loading="lazy"
             className="h-auto max-w-full rounded-lg"
             src={kay1}
             alt=""
@@ -56,6 +60,7 @@ const Studio = () => {
       <div className="grid gap-4">
         <div>
           <img
+          loading="lazy"
             className="h-auto max-w-full rounded-lg"
             src={remembrance}
             alt=""
@@ -63,6 +68,7 @@ const Studio = () => {
         </div>
         <div>
           <img
+          loading="lazy"
             className="h-auto max-w-full rounded-lg"
             src= {sele}
             alt=""
@@ -70,6 +76,7 @@ const Studio = () => {
         </div>
         <div>
           <img
+          loading="lazy"
             className="h-auto max-w-full rounded-lg"
             src={selecover}
             alt=""
@@ -77,6 +84,7 @@ const Studio = () => {
         </div>
         <div>
           <img
+          loading="lazy"
             className="h-auto max-w-full rounded-lg"
             src={shots}
             alt=""
@@ -86,6 +94,7 @@ const Studio = () => {
       <div className="grid gap-4">
         <div>
           <img
+          loading="lazy"
             className="h-auto max-w-full rounded-lg"
             src= {maria}
             alt=""
@@ -94,6 +103,7 @@ const Studio = () => {
         
         <div>
           <img
+          loading="lazy"
             className="h-auto max-w-full rounded-lg"
             src= {baba }
             alt=""
@@ -101,6 +111,7 @@ const Studio = () => {
         </div>
         <div>
           <img
+          loading="lazy"
             className="h-auto max-w-full rounded-lg"
             src= {babyshowershot1}
             alt=""
@@ -108,6 +119,7 @@ const Studio = () => {
         </div>
         <div>
           <img
+          loading="lazy"
             className="h-auto max-w-full rounded-lg"
             src= {kay3}
             alt=""

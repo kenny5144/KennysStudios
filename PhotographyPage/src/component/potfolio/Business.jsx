@@ -21,6 +21,7 @@ const Business = () => {
         <div className="grid gap">
           <div>
             <img
+            loading="lazy"
               className="h-auto max-w-full rounded-lg"
               src={portraits1}
               alt=""
@@ -29,6 +30,7 @@ const Business = () => {
           </div>
           <div>
             <img
+            loading="lazy"
               className="h-auto max-w-full rounded-lg"
               src= {land1}
               alt=""
@@ -36,6 +38,7 @@ const Business = () => {
           </div>
           <div>
             <img
+            loading="lazy"
               className="h-auto max-w-full rounded-lg"
               src={portraits2}
               alt=""
@@ -43,6 +46,7 @@ const Business = () => {
           </div>
           {/* <div>
             <img
+            loading="lazy"
               className="h-auto max-w-full rounded-lg"
               src={kay1}
               alt=""
@@ -52,6 +56,7 @@ const Business = () => {
         <div className="grid gap">
           <div>
             <img
+            loading="lazy"
               className="h-auto max-w-full rounded-lg"
               src={land2}
               alt=""
@@ -59,6 +64,7 @@ const Business = () => {
           </div>
           <div>
             <img
+            loading="lazy"
               className="h-auto max-w-full rounded-lg"
               src= {portraits3}
               alt=""
@@ -66,6 +72,7 @@ const Business = () => {
           </div>
           <div>
             <img
+            loading="lazy"
               className="h-auto max-w-full rounded-lg"
               src={land4}
               alt=""
@@ -73,6 +80,7 @@ const Business = () => {
           </div>
           {/* <div>
             <img
+            loading="lazy"
               className="h-auto max-w-full rounded-lg"
               src={shots}
               alt=""
@@ -82,6 +90,7 @@ const Business = () => {
         <div className="grid gap">
           <div>
             <img
+            loading="lazy"
               className="h-auto max-w-full rounded-lg"
               src= {land5}
               alt=""
@@ -90,6 +99,7 @@ const Business = () => {
           
           <div>
             <img
+            loading="lazy"
               className="h-auto max-w-full rounded-lg"
               src= {land6}
               alt=""
@@ -97,6 +107,7 @@ const Business = () => {
           </div>
           <div>
             <img
+            loading="lazy"
               className="h-auto max-w-full rounded-lg"
               src= {land3}
               alt=""

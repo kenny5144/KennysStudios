@@ -19,11 +19,14 @@ const Event = () => {
     <>
       {/* <Navbar/> */}
       <h1 className="text-center text-5xl mb-4">Events </h1>
+      <h2 className=" text-center   text-2xl mt-5 mb-10"> From local business events to School ceremonies, we have you covered.</h2>
 
       <div className="grid  md:grid-cols-2 lg:grid-cols-3 gap-4">
         <div className="grid gap-4">
           <div>
-            <img
+            <img 
+            
+            loading="lazy"
               className="h-auto max-w-full rounded-lg"
               src={long1}
               alt=""
@@ -31,21 +34,27 @@ const Event = () => {
             
           </div>
           <div>
-            <img
+            <img 
+            
+            loading="lazy"
               className="h-auto max-w-full rounded-lg"
               src= {short1}
               alt=""
             />
           </div>
           <div>
-            <img
+            <img 
+            
+            loading="lazy"
               className="h-auto max-w-full rounded-lg"
               src={long2}
               alt=""
             />
           </div>
           {/* <div>
-            <img
+            <img 
+            
+            loading="lazy"
               className="h-auto max-w-full rounded-lg"
               src={short2}
               alt=""
@@ -54,28 +63,36 @@ const Event = () => {
         </div>
         <div className="grid gap-4">
           <div>
-            <img
+            <img 
+            
+            loading="lazy"
               className="h-auto max-w-full rounded-lg"
               src={short3}
               alt=""
             />
           </div>
           <div>
-            <img
+            <img 
+            
+            loading="lazy"
               className="h-auto max-w-full rounded-lg"
               src= {long3}
               alt=""
             />
           </div>
           <div>
-            <img
+            <img 
+            
+            loading="lazy"
               className="h-auto max-w-full rounded-lg"
               src={short}
               alt=""
             />
           </div>
           {/* <div>
-            <img
+            <img 
+            
+            loading="lazy"
               className="h-auto max-w-full rounded-lg"
               src=}
               alt=""
@@ -84,7 +101,9 @@ const Event = () => {
         </div>
         <div className="grid gap-4">
           <div>
-            <img
+            <img 
+            
+            loading="lazy"
               className="h-auto max-w-full rounded-lg"
               src= {long4}
               alt=""
@@ -92,14 +111,18 @@ const Event = () => {
           </div>
           
           <div>
-            <img
+            <img 
+            
+            loading="lazy"
               className="h-auto max-w-full rounded-lg"
               src= {short4 }
               alt=""
             />
           </div>
           <div>
-            <img
+            <img 
+            
+            loading="lazy"
               className="h-auto max-w-full rounded-lg"
               src= {short5}
               alt=""

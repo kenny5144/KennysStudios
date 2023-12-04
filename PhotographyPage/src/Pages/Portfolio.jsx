@@ -10,6 +10,7 @@ const Portfolio = () => {
           <div className=" md:relative   md:top-36 ">
             <div className="container">
               <img
+              loading="lazy"
                 className=" rounded-lg w-screen md:w-96 md:h-auto  image h-auto"
                 src={maria}
                 alt=""
@@ -26,6 +27,7 @@ const Portfolio = () => {
 
             <div className="container  ">
               <img
+              loading="lazy"
                 className="rounded-lg w-screen  mt-2   md:w-96 md:h-auto image h-auto"
                 src={baba}
                 alt="event image"
@@ -43,6 +45,7 @@ const Portfolio = () => {
           <div className="md:ml-6 ">
             <div className="container">
               <img
+              loading="lazy"
                 className="rounded-lg w-screen mt-2 md:mt-0  image md:w-96 md:h-auto h-auto"
                 src={selecover}
                 alt=""
@@ -59,6 +62,7 @@ const Portfolio = () => {
 
             <div className="container">
               <img
+              loading="lazy"
                 className="rounded-lg w-screen  mt-2 md:w-96 md:h-auto image h-auto"
                 src={kay1}
                 alt=""
