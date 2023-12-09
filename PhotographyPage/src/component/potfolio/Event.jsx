@@ -51,15 +51,7 @@ const Event = () => {
               alt=""
             />
           </div>
-          {/* <div>
-            <img 
-            
-            loading="lazy"
-              className="h-auto max-w-full rounded-lg"
-              src={short2}
-              alt=""
-            />
-          </div> */}
+         
         </div>
         <div className="grid gap-4">
           <div>

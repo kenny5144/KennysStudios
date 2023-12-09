@@ -1,15 +1,21 @@
 import React from "react";
 import Navbar from "../Navbar";
 import image1c from "../../images/homepageimages/image1c.jpg";
-import shots from "../../images/homepageimages/shots.jpg";
 import kay3 from "../../images/homepageimages/kay3.jpg";
 import sele from "../../images/homepageimages/sele.jpg";
 import maria from "../../images/homepageimages/maria.jpg";
 import selecover from "../../images/homepageimages/selecover.jpg";
-import baba from "../../images/homepageimages/baba.jpg";
+import mek1 from "../../images/studio/mek1.jpg"
+import mek4 from "../../images/studio/mek4.jpg"
+import mek5 from "../../images/studio/mek5.jpg"
+import mek3 from "../../images/studio/mek3.jpg"
+import mek2 from "../../images/studio/mek2.jpg"
+import mek6 from "../../images/studio/mek6.jpg"
+import sel from "../../images/studio/sel.jpg"
+import sel1 from "../../images/studio/sel1.jpg"
+import sel2 from "../../images/studio/sel2.jpg"
+import sel3 from "../../images/studio/sel3.jpg"
 
-import babyshowershot2 from "../../images/homepageimages/babyshowershot2.jpg";
-import babyshowershot1 from "../../images/homepageimages/babyshowershot1.jpg";
 import remembrance from "../../images/homepageimages/remembrance.jpg";
 import kay1 from "../../images/homepageimages/kay1.jpg";
 
@@ -27,7 +33,7 @@ const Studio = () => {
           <img
           loading="lazy"
             className="h-auto max-w-full rounded-lg"
-            src={image1c}
+            src={mek1}
             alt=""
           />
           
@@ -36,7 +42,7 @@ const Studio = () => {
           <img
           loading="lazy"
             className="h-auto max-w-full rounded-lg"
-            src= {babyshowershot2}
+            src= {sel1}
             alt=""
           />
         </div>
@@ -44,7 +50,18 @@ const Studio = () => {
           <img
           loading="lazy"
             className="h-auto max-w-full rounded-lg"
-            src={babyshowershot1}
+            src={mek2}
+            alt=""
+          />
+        </div>
+      
+      </div>
+      <div className="grid  gap-4">
+        <div>
+          <img
+          loading="lazy"
+            className="h-auto max-w-full rounded-lg"
+            src={sele}
             alt=""
           />
         </div>
@@ -52,51 +69,27 @@ const Studio = () => {
           <img
           loading="lazy"
             className="h-auto max-w-full rounded-lg"
-            src={kay1}
+            src= {mek5}
             alt=""
           />
         </div>
+        <div>
+          <img
+          loading="lazy"
+            className="h-auto max-w-full rounded-lg"
+            src= {sel}
+            alt=""
+          />
+        </div>
+
+     
       </div>
       <div className="grid gap-4">
         <div>
           <img
           loading="lazy"
             className="h-auto max-w-full rounded-lg"
-            src={remembrance}
-            alt=""
-          />
-        </div>
-        <div>
-          <img
-          loading="lazy"
-            className="h-auto max-w-full rounded-lg"
-            src= {sele}
-            alt=""
-          />
-        </div>
-        <div>
-          <img
-          loading="lazy"
-            className="h-auto max-w-full rounded-lg"
-            src={selecover}
-            alt=""
-          />
-        </div>
-        <div>
-          <img
-          loading="lazy"
-            className="h-auto max-w-full rounded-lg"
-            src={shots}
-            alt=""
-          />
-        </div>
-      </div>
-      <div className="grid gap-4">
-        <div>
-          <img
-          loading="lazy"
-            className="h-auto max-w-full rounded-lg"
-            src= {maria}
+            src= {mek6}
             alt=""
           />
         </div>
@@ -105,7 +98,7 @@ const Studio = () => {
           <img
           loading="lazy"
             className="h-auto max-w-full rounded-lg"
-            src= {baba }
+            src= {sel2 }
             alt=""
           />
         </div>
@@ -113,18 +106,11 @@ const Studio = () => {
           <img
           loading="lazy"
             className="h-auto max-w-full rounded-lg"
-            src= {babyshowershot1}
+            src= {mek3}
             alt=""
           />
         </div>
-        <div>
-          <img
-          loading="lazy"
-            className="h-auto max-w-full rounded-lg"
-            src= {kay3}
-            alt=""
-          />
-        </div>
+      
       </div>
       
     </div>

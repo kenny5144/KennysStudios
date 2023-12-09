@@ -144,7 +144,7 @@ const Navbar = () => {
           </li>
           {/* code for th dropdown button */}
             {portfolioisOpen &&
-             <div className=" bg-black w-40  gap-5 rounded-xl h-auto m-auto p-9 absolute top-[34rem] right-[100rem] " >
+             <div className=" bg-black w-40  gap-5 rounded-xl h-auto m-auto p-9 absolute top-[34rem] left-[25rem] " >
               <div>
 
                 <ul className="text-orange-400 text-center flex flex-col ">

@@ -1,15 +1,15 @@
 import React, { useRef, useState } from "react";
 import contact from "../images/homepageimages/contact.jpg";
 import DatePicker from "react-datepicker";
-import "react-datepicker/dist/react-datepicker.css"; 
+// import "react-datepicker/dist/react-datepicker.css"; 
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {
   const [input, setInput] = useState({
     title: "",
     email: "",
-    date: " ",
-    text: "",
+    date: "",
+    text:  "",
     cameAcross: "",
   });
   const handleChange = (e) => {
@@ -50,7 +50,7 @@ const Contact = () => {
   return (
     <>
       <div className="-z-[1]  -top-[30px] relative ">
-        <img loading="lazy" className="w-screen" src={contact} alt="" />
+        <img loading="lazy" className="w-screen" data-src={contact} src={contact} alt="" />
         <h2 className="text-5xl text-center inset-x-0 -bottom-8 bg-white w-fit absolute  p-4 m-auto ">
           Contact Me
         </h2>
@@ -134,23 +134,20 @@ const Contact = () => {
               </label>
             </div>
             <div className="relative mt-4">
-        <DatePicker
-          selected={input.date}
-          onChange={(date) => handleChange("date", date)}
-          placeholderText="Select a date"
-          dateFormat="MM/dd/yyyy"
-          className="border-b w-96 py-1 focus:outline-none focus:border-purple-600 focus:border-b-2 transition-colors"
-        />
-        <label
-          htmlFor="Date"
-          className={`absolute left-0 top-1 text-gray-600 cursor-text transition-all ${
-            isInputFilled(input.date)
-              ? "-top-4 text-xs text-purple-600"
-              : "peer-focus:text-xs peer-focus:-top-4 peer-focus:text-purple-600"
-          }`}
-        >
-          Date
-        </label>
+            <input
+                type="text"
+                // placeholder="select me "
+                id="Date"
+                className="border-b data-[te-input-state-active]:placeholder:opacity-100 w-96 py-1 focus:outline-none focus:border-purple-600 focus:border-b-2 transition-colors peer"
+                autoComplete="off"
+                reqiuired
+              />
+              <label
+                htmlFor="Date"
+                className="absolute left-0 top-1 text-gray-600 cursor-text peer-focus:text-xs peer-focus:-top-4 peer-focus:text-purple-600 transition-all"
+              >
+                Date
+              </label>
       </div>
             <div className="relative mt-4">
               <input
