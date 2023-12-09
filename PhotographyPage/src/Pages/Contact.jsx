@@ -1,7 +1,6 @@
 import React, { useRef, useState } from "react";
 import contact from "../images/homepageimages/contact.jpg";
-import DatePicker from "react-datepicker";
-// import "react-datepicker/dist/react-datepicker.css"; 
+
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {
