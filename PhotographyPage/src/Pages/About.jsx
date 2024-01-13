@@ -32,7 +32,7 @@ const About = () => {
           </div>
           <div className="mt-4 md:mt-10 h-20 w-full md:w-fit p-2 flex justify-center rounded-lg m-auto items-center">
             <a
-              href="www.instagram.com"
+              href="https://www.instagram.com/kennys_studio/"
               target="blank"
               className="flex  text-orange-400"
             >
