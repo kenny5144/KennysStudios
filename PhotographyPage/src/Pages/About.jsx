@@ -22,10 +22,8 @@ const About = () => {
                   So Who am i?
                 </h2>
                 <p className="md:w-46 md:ml-2 leading-relaxed mt-8">
-                  My name is Kehinde ojo , a photographer with a love for
-                  freezing moments in time. Photography to me is about capturing
-                  the genuine smiles, the unspoken emotions, and the fleeting
-                  moments that make life so beautiful and thats why  At KennyStudios, we believe in the power of photography to capture the unseen. Our passion is to create meaningful images that resonate with you, your family, or your business. Our team of experienced photographers is committed to preserving your life's milestones while placing your comfort and satisfaction at the forefront.
+                My name is Kehinde Ojo.I am a photographer who loves freezing moments in time. Photography is about capturing the genuine smiles, the unspoken emotions, and the fleeting moments that make life so beautiful, and that is why at KennyStudios i believe in the power of photography to capture the unseen. Our passion is to create meaningful images that resonate with you, your family, or your business. I am committed to preserving your life's milestones while placing your comfort and satisfaction at the forefront.
+
                 </p>
               </section>
             </div>

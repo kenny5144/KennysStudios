@@ -11,7 +11,6 @@ const Contact = () => {
     text: "",
     cameAcross: "",
   });
-  console.log(input);
   const templateparams = {
     form_name: input.title,
     form_email: input.email,
@@ -51,9 +50,7 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          console.log(form.current);
 
-          console.log(result.text);
           setError("Your message was sent ");
           setInput({
             title: "",
@@ -66,7 +63,6 @@ const Contact = () => {
           )
         },
         (error) => {
-          console.log(error.text);
           setError("your message wasnt sent please try again in a few mins");
         }
       );
