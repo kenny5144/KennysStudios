@@ -100,7 +100,7 @@ const Navbar = () => {
                       setPortfolioIsOpen(false);
                     }}
                   >
-                    lifestyle
+                    Lifestyle
                   </li>
                   <li
                     className={
@@ -113,7 +113,7 @@ const Navbar = () => {
                       setPortfolioIsOpen(false);
                     }}
                   >
-                    business
+                    Business
                   </li>
                 </ul>
               </div>
