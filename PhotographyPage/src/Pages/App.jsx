@@ -3,6 +3,7 @@ import Home from "./Home";
 import { useState } from "react";
 import About from "./About";
 // import Investment from "./Investment";
+import "./app.css"
 import Contact from "./Contact";
 import Navbar from "../component/Navbar";
 import Event from "../component/potfolio/Event";

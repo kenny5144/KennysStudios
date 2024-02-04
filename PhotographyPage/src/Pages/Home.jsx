@@ -7,6 +7,8 @@ import selecover from "../images/homepageimages/selecover.jpg";
 import baba from "../images/homepageimages/baba.jpg";
 import short from "../images/events/short.jpg"
 import babyshowershot2 from "../images/homepageimages/babyshowershot2.jpg";
+import thirtythbirdthay from "../images/homepageimages/thirtythbirdthay.jpg";
+import thirtybirthday from "../images/homepageimages/thirtybirthday.jpg";
 import babyshowershot1 from "../images/homepageimages/babyshowershot1.jpg";
 import remembrance from "../images/homepageimages/remembrance.jpg";
 import kay1 from "../images/homepageimages/kay1.jpg";
@@ -41,8 +43,14 @@ function Home() {
         className="mySwiper"
       >
        
+        <SwiperSlide >
+          <img className="w-screen" src={short} alt="" />
+        </SwiperSlide>
         <SwiperSlide>
-          <img  src={short} alt="" />
+          <img className="w-screen" src={thirtybirthday} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img className="w-screen" src={thirtythbirdthay} alt="" />
         </SwiperSlide>
         <SwiperSlide className="relative">
           <img  className="w-full absolute flex flex-col items-center mt- justify-center" src={image1c} alt="" />
@@ -64,20 +72,19 @@ function Home() {
           </div> */}
         </SwiperSlide>
         <SwiperSlide>
-          <img  src={shots} alt="" />
-        </SwiperSlide>
-       
-        <SwiperSlide>
-          <img  src={babyshowershot1} alt="" />
+          <img className="w-screen" src={shots} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img  src={kay3} alt="" />
+          <img className="w-screen" src={babyshowershot1} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img  src={babyshowershot2} alt="" />
+          <img className="w-screen" src={kay3} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img  src={remembrance} alt="" />
+          <img className="w-screen" src={babyshowershot2} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img className="w-screen" src={remembrance} alt="" />
         </SwiperSlide>
        
       </Swiper>

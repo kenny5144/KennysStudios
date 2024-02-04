@@ -19,7 +19,7 @@ const About = () => {
             <div className="ml-2 flex  items-center">
               <section>
                 <h2 className="text-4xl md:text-5xl text-blue-400 text-center  mt-2 md:mt-0 text-bold">
-                  So Who am i?
+                  So Who am I?
                 </h2>
                 <p className="md:w-46 md:ml-2 leading-relaxed mt-8">
                 My name is Kehinde Ojo.I am a photographer who loves freezing moments in time. Photography is about capturing the genuine smiles, the unspoken emotions, and the fleeting moments that make life so beautiful, and that is why at KennyStudios i believe in the power of photography to capture the unseen. Our passion is to create meaningful images that resonate with you, your family, or your business. I am committed to preserving your life's milestones while placing your comfort and satisfaction at the forefront.

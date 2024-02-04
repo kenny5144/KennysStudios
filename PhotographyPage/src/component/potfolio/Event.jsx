@@ -11,6 +11,11 @@ import short4 from "../../images/events/short4.jpg";
 import short5 from "../../images/events/short5.jpg";
 import short6 from "../../images/events/short6.jpg";
 import short from "../../images/events/short.jpg";
+import thbd from "../../images/events/thbd.jpg";
+import thbd1 from "../../images/events/thbd1.jpg";
+import thbd3 from "../../images/events/thbd3.jpg";
+import thbd4 from "../../images/events/thbd4.jpg";
+import thbirthday3 from "../../images/events/thbirthday3.jpg";
 
 
 
@@ -23,6 +28,15 @@ const Event = () => {
 
       <div className="grid  md:grid-cols-2 lg:grid-cols-3 gap-4">
       <div className="grid gap-4">
+          <div>
+            <img 
+            
+            loading="lazy"
+              className="pointer-events-none h-auto max-w-full rounded-lg"
+              src={thbirthday3}
+              alt=""
+            />
+          </div>
           <div>
             <img 
             
@@ -46,19 +60,20 @@ const Event = () => {
             
             loading="lazy"
               className="h-auto max-w-full rounded-lg"
-              src={short}
+              src={thbd3}
               alt=""
             />
           </div>
-          {/* <div>
+          <div>
             <img 
             
             loading="lazy"
               className="h-auto max-w-full rounded-lg"
-              src=}
+              src={short}
               alt=""
             />
-          </div> */}
+          </div>
+         
         </div>
         <div className="grid gap-4">
           <div>
@@ -70,6 +85,15 @@ const Event = () => {
               alt=""
             />
             
+          </div>
+          <div>
+            <img 
+            
+            loading="lazy"
+              className="h-auto max-w-full rounded-lg"
+              src= {thbd1}
+              alt=""
+            />
           </div>
           <div>
             <img 
@@ -117,18 +141,22 @@ const Event = () => {
             
             loading="lazy"
               className="h-auto max-w-full rounded-lg"
+              src= {thbd4 }
+              alt=""
+            />
+          </div>
+          <div>
+            <img 
+            
+            loading="lazy"
+              className="h-auto max-w-full rounded-lg"
               src= {short5}
               alt=""
             />
           </div>
-          {/* <div>
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src= {kay3}
-              alt=""
-            />
-          </div> */}
+         
         </div>
+        
         
       </div>
   </>

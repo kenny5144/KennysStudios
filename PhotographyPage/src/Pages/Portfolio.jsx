@@ -11,7 +11,7 @@ const Portfolio = () => {
             <div className="container">
               <img
               loading="lazy"
-                className=" rounded-lg w-screen md:w-96 md:h-auto  image h-auto"
+                className="pointer-events-none rounded-lg w-screen md:w-96 md:h-auto  image h-auto"
                 src={maria}
                 alt=""
               />

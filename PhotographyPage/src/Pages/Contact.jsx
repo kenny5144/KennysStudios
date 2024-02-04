@@ -110,10 +110,10 @@ const Contact = () => {
               />
               <label
                 htmlFor="name"
-                className={`absolute left-0 top-1 text-gray-600 cursor-text transition-all ${
+                className={`absolute left-0  text-gray-600 cursor-text transition-all ${
                   isInputFilled(input.title)
-                    ? "-top-[1rem] text-xs text-purple-600"
-                    : "peer-focus:text-xs peer-focus:-top-4 peer-focus:text-purple-600"
+                    ? "bottom-[1.6rem] text-xs text-purple-600"
+                    : "peer-focus:text-xs peer-focus:-top-4 top-1 peer-focus:text-purple-600"
                 }`}
               >
                 Your Name
@@ -132,10 +132,10 @@ const Contact = () => {
               />
               <label
                 htmlFor="Email"
-                className={`absolute left-0 top-1 text-gray-600 cursor-text transition-all ${
+                className={`absolute left-0  text-gray-600 cursor-text transition-all ${
                   isInputFilled(input.email)
-                    ? "-top-[1rem] text-xs text-purple-600"
-                    : "peer-focus:text-xs peer-focus:-top-4 peer-focus:text-purple-600"
+                    ? "bottom-[1.6rem]  text-xs text-purple-600"
+                    : "peer-focus:text-xs top-1 peer-focus:-top-4 peer-focus:text-purple-600"
                 }`}
               >
                 Email
@@ -154,10 +154,10 @@ const Contact = () => {
               />
               <label
                 htmlFor="Text"
-                className={`absolute left-0 top-1 text-gray-600 cursor-text transition-all ${
+                className={`absolute left-0  text-gray-600 cursor-text transition-all ${
                   isInputFilled(input.text)
-                    ? "-top-[1rem] text-xs text-purple-600"
-                    : "peer-focus:text-xs peer-focus:-top-4 peer-focus:text-purple-600"
+                    ? "bottom-[1.6rem]  text-xs text-purple-600"
+                    : "peer-focus:text-xs peer-focus:-top-4 top-1 peer-focus:text-purple-600"
                 }`}
               >
                 Occassion
@@ -176,10 +176,10 @@ const Contact = () => {
               />
               <label
                 htmlFor="Text"
-                className={`absolute left-0 top-1 text-gray-600 cursor-text transition-all ${
+                className={`absolute left-0  text-gray-600 cursor-text transition-all ${
                   isInputFilled(input.budget)
-                    ? "-top-[1rem] text-xs text-purple-600"
-                    : "peer-focus:text-xs peer-focus:-top-4 peer-focus:text-purple-600"
+                    ? "bottom-[1.6rem]  text-xs text-purple-600"
+                    : "peer-focus:text-xs peer-focus:-top-4 top-1 peer-focus:text-purple-600"
                 }`}
               >
                 Budget
@@ -199,10 +199,10 @@ const Contact = () => {
               />
               <label
                 htmlFor="Date"
-                className={`absolute left-0 -top-4 text-gray-600 cursor-text transition-all ${
+                className={`absolute left-0  text-gray-600 bottom-6 cursor-text transition-all ${
                   isInputFilled(input.text)
-                    ? "-top-[1rem] text-xs text-purple-600"
-                    : "peer-focus:text-xs peer-focus:-top-4 peer-focus:text-purple-600"
+                    ? "bottom-[1.6rem]  text-xs text-purple-600"
+                    : "peer-focus:text-xs peer-focus:-top-4  peer-focus:text-purple-600"
                 }`}
               >
                 Date of the occassion 
@@ -221,10 +221,10 @@ const Contact = () => {
               />
               <label
                 htmlFor="cameAcross"
-                className={`absolute left-0 top-1 text-gray-600 cursor-text transition-all ${
+                className={`absolute left-0  text-gray-600 cursor-text transition-all ${
                   isInputFilled(input.cameAcross)
-                    ? "-top-[1rem] text-xs text-purple-600"
-                    : "peer-focus:text-xs peer-focus:-top-4 peer-focus:text-purple-600"
+                    ? "bottom-[1.6rem] text-xs text-purple-600"
+                    : "peer-focus:text-xs peer-focus:-top-4 top-1 peer-focus:text-purple-600"
                 }`}
               >
                 How did you find me 
