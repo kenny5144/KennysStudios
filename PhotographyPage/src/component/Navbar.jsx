@@ -3,6 +3,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { faX } from "@fortawesome/free-solid-svg-icons";
+import Logo from "../images/homepageimages/Logo.png"
 const Navbar = () => {
   const navigate = useNavigate();
   const location = useLocation();
@@ -28,15 +29,20 @@ const Navbar = () => {
             : "w-full md:px-2 mt-1 flex justify-between"
         }
       >
-        <h1
-          className={"text-orange-400 ml-1 md:text-2xl cursor-pointer "}
-          onClick={() => {
-            navigate("/");
+       < section  onClick={() => {
+           navigate("/");
             setIsOpen(false);
-          }}
-        >
-          Kennys Studios
-        </h1>
+          }}>
+       
+        
+       <img
+          src={Logo}
+
+          className="text-orange-400 h-10  ml-1  cursor-pointer "
+         
+         alt="Kennys Studios logo" 
+        />
+       </section> 
         <ul className="hidden md:flex md:space-x-4">
           <li
             className={

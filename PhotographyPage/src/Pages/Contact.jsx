@@ -72,7 +72,9 @@ const Contact = () => {
 
   return (
     <>
-      <div className="-z-[1]  -top-[40px] relative ">
+    <main>
+
+      <div className="-z-[1]  -top-[45px] relative ">
         <img
           loading="lazy"
           className="w-screen"
@@ -238,6 +240,7 @@ const Contact = () => {
           </section>
         </form>
       </div>
+    </main>
     </>
   );
 };
