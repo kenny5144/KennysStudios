@@ -6,10 +6,10 @@ const About = () => {
   return (
     <>
       {/* <div className="w-screen bg-black-500  h-10px"></div> */}
-      <div className="flex mt-10 md:h-[80vh] lg:h-screen   m-auto items-center ">
+      <div className="flex mt-10 xl:mt-32 md:h-[80vh] lg:h-screen   m-auto items-center ">
         <div className="flex flex-col items-center">
           <h2 className="text-center md:mb-10 text-4xl">About Me</h2>
-          <div className=" w-11/12  md:flex relative  -z-[1] justify-center m-auto md:m-0 mt-6">
+          <div className=" w-11/12  md:flex relative   justify-center m-auto md:m-0 mt-10">
             <img
             loading="lazy"
               className="rounded-xl md:w-2/4"

@@ -33,8 +33,7 @@ const Navbar = () => {
            navigate("/");
             setIsOpen(false);
           }}>
-       
-        
+
        <img
           src={Logo}
 
@@ -56,7 +55,7 @@ const Navbar = () => {
           </li>
           <li
             className={
-              pathMatchRoutes("/investment")
+              pathMatchRoutes("/portfolio")
                 ? " md:text-2xl cursor-pointer  text-green-600"
                 : "text-orange-400 cursor-pointer md:text-2xl"
             }
@@ -71,7 +70,7 @@ const Navbar = () => {
                 <ul className="text-orange-400 kenny text-center">
                   <li
                     className={
-                      pathMatchRoutes("/investment")
+                      pathMatchRoutes("/event")
                         ? " md:text-2xl cursor-pointer  text-green-600"
                         : "text-orange-400 cursor-pointer md:text-2xl"
                     }
@@ -84,7 +83,7 @@ const Navbar = () => {
                   </li>
                   <li
                     className={
-                      pathMatchRoutes("/investment")
+                      pathMatchRoutes("/studio")
                         ? " md:text-2xl cursor-pointer  text-green-600"
                         : "text-orange-400 cursor-pointer md:text-2xl"
                     }
